@@ -1,3 +1,4 @@
+package Questions;
 import java.util.Scanner;
 
 public class VM2 {
