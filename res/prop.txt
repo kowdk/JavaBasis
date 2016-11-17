@@ -1,0 +1,3 @@
+a=javax.swing.JFrame
+b=javax.swing.JLabel
+a%Title=Test title
