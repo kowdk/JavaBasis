@@ -1,5 +1,6 @@
 package NIO;
-import java.nio.*;
+
+import java.nio.FloatBuffer;
 
 public class UseFloatBuffer
 {

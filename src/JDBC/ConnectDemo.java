@@ -1,10 +1,5 @@
 package JDBC;
 
-import java.sql.SQLException;
-
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.Statement;
-
 
 public class ConnectDemo {	
 	public static void main(String[] args)

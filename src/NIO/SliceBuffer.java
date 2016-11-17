@@ -1,8 +1,6 @@
 package NIO;
 
-import java.io.*;
-import java.nio.*;
-import java.nio.channels.*;
+import java.nio.ByteBuffer;
 
 public class SliceBuffer {
 	static public void main(String args[]) throws Exception {

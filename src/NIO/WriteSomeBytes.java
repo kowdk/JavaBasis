@@ -1,11 +1,10 @@
 package NIO;
 
-import java.io.*;
-import java.lang.reflect.Array;
-import java.nio.*;
-import java.nio.channels.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
 
 public class WriteSomeBytes {
 	static private final byte message[] = { 83, 111, 109, 101, 32, 98, 121,

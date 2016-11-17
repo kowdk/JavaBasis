@@ -1,7 +1,6 @@
 package ExtendsAndPolymorphism;
 
 import java.util.AbstractList;
-import java.util.HashMap;
 
 interface Playable{
 	void play();
@@ -25,6 +24,7 @@ class Ball implements Rollable{
 		this.name = name;
 	}
 
+	@Override
 	public void play(){
 		// ball = new Ball("Football");
 		System.out.println(ball.getName());

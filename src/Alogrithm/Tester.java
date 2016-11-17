@@ -3,7 +3,6 @@ package Alogrithm;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-
 public class Tester{
     public static void main(String[] args) {
     	Integer n1 = new Integer(47);

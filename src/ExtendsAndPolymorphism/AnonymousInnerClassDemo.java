@@ -39,10 +39,11 @@ public class AnonymousInnerClassDemo {
 		
 		Device d = new Device(){
 			//匿名内部类可以复写父类的非抽象方法
+			@Override
 			public String getName()
 			{
 				//访问外部类的类变量，必须加上static
-				System.out.println(AnonymousInnerClassDemo.this.name);
+				System.out.println(AnonymousInnerClassDemo.name);
 				//访问外部类的局部变量，该局部变量必须加上final
 				System.out.println(nameInMain);
 				return "keyboard";

@@ -59,6 +59,7 @@ class MiddleClass extends BaseClass {
 		System.out.println("中间类普通方法");
 	}
 
+	@Override
 	public void overrideMethod() {
 		System.out.println("中间类被重写的方法");
 	}
@@ -95,6 +96,7 @@ class SubClass extends MiddleClass {
 		System.out.println("子类普通方法");
 	}
 
+	@Override
 	public void overrideMethod() {
 		System.out.println("子类重写的方法");
 	}
@@ -143,6 +145,7 @@ class Sub extends Base
 		add(2);
 		System.out.println("In sub constructor: " + i);
 	}
+	@Override
 	void add(int v)
 	{
 		i+=v*2;

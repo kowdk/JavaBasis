@@ -6,10 +6,12 @@ class Dervied3 extends Base1 {
         tellName();
         printName();
     }
-    public void tellName() {
+    @Override
+	public void tellName() {
         System.out.println("Dervied tell name: " + name);
     }
-    public void printName() {
+    @Override
+	public void printName() {
         System.out.println("Dervied print name: " + name);
     }
 }
@@ -52,14 +54,16 @@ class SubClass1 extends Super
     {
         return "Hello";
     }
-    String name()
+    @Override
+	String name()
     {
         return "Dick";
     }
     int x = 4;
     int y = 5;
     static int z = 6;
-    int method() {
+    @Override
+	int method() {
         return x;
     }
 }

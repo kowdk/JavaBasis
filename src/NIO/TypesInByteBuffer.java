@@ -1,8 +1,6 @@
 package NIO;
 
-import java.io.*;
-import java.nio.*;
-import java.nio.channels.*;
+import java.nio.ByteBuffer;
 
 public class TypesInByteBuffer
 {

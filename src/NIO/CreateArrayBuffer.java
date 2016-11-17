@@ -1,6 +1,6 @@
 package NIO;
 
-import java.nio.*;
+import java.nio.ByteBuffer;
 
 public class CreateArrayBuffer
 {

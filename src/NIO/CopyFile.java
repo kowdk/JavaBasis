@@ -1,8 +1,10 @@
 package NIO;
 
-import java.io.*;
-import java.nio.*;
-import java.nio.channels.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
 
 public class CopyFile {
 	private final static String resPath = new File("").getAbsolutePath()
