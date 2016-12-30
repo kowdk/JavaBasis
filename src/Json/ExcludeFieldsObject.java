@@ -1,7 +1,7 @@
 package Json;
 
 public class ExcludeFieldsObject {
-	@Exclude private final int annotatedField;
+    @Exclude private final int annotatedField;
     private final String stringField;
     private final long longField;
     //private Class<?> clazzField;
