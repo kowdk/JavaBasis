@@ -26,7 +26,7 @@ public class GraphSeries {
 		List<Integer> leaves = new ArrayList<Integer>();
 
 		for (int i = 0; i < n; i++) {
-			adj.add(new HashSet<>());
+			adj.add(new HashSet<Integer>());
 		}
 		for (int i = 0; i < edges.length; i++) {
 			adj.get(edges[i][0]).add(edges[i][1]);

@@ -6,16 +6,25 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
+		<!-- JSON -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.0</version>
 		</dependency>
 
+		<!-- URL -->
 		<dependency>
 			<groupId>io.mola.galimatias</groupId>
 			<artifactId>galimatias</artifactId>
 			<version>0.2.0</version>
+		</dependency>
+
+		<!-- String similarity -->
+		<dependency>
+			<groupId>info.debatty</groupId>
+			<artifactId>java-string-similarity</artifactId>
+			<version>RELEASE</version>
 		</dependency>
 
 	</dependencies>
